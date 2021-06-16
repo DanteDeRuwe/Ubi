@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Ubi.Infrastructure;
 
 namespace Ubi.Api
 {
@@ -18,6 +19,9 @@ namespace Ubi.Api
 
         public static void ConfigureServices(IServiceCollection services)
         {
+            // reference other layers
+            services.AddInfrastructure();
+            
             services.AddControllers();
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo { Title = "Ubi.Api", Version = "v1" }); });
         }
