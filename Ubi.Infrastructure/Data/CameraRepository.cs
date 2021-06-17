@@ -28,7 +28,7 @@ namespace Ubi.Infrastructure.Data
 
         public IEnumerable<Camera> Search(Func<Camera, bool> predicate)
         {
-            return GetAll().Where(predicate).ToList();
+            return GetAll().Where(predicate);
         }
     }
 }

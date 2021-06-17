@@ -1,6 +1,6 @@
 ﻿namespace Ubi.Application.DTOs
 {
-    public class CameraDTO
+    public record CameraDTO
     {
         public string Camera { get; init; }
         public double Latitude { get; init; }

@@ -11,7 +11,7 @@ namespace Ubi.Core.ValueObjects
 
         protected override void Validate()
         {
-            if (Value is < MinimumLatitude or > MaximumLatitude)
+            if (Value is< MinimumLatitude or> MaximumLatitude)
             {
                 throw new ArgumentException(
                     $"The {nameof(Latitude)} is incorrectly set. It's value should be between {MinimumLatitude} and {MaximumLatitude}.");
