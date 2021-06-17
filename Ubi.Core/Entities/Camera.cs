@@ -8,5 +8,7 @@ namespace Ubi.Core.Entities
         public string FullName { get; init; }
         public Latitude Latitude { get; init; }
         public Longitude Longitude { get; init; }
+
+        public override string ToString() => $"{Number} | {FullName} | {Latitude.Value} | {Longitude.Value}";
     }
 }

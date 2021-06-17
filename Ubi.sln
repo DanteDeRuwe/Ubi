@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.UnitTests", "Ubi.UnitTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Application", "Ubi.Application\Ubi.Application.csproj", "{FA1514BD-705B-4C9B-A6C6-C83A62816D77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Cli", "Ubi.Cli\Ubi.Cli.csproj", "{BBD0266E-A779-4A70-8AA9-BB942772726F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{FA1514BD-705B-4C9B-A6C6-C83A62816D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA1514BD-705B-4C9B-A6C6-C83A62816D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA1514BD-705B-4C9B-A6C6-C83A62816D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD0266E-A779-4A70-8AA9-BB942772726F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD0266E-A779-4A70-8AA9-BB942772726F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD0266E-A779-4A70-8AA9-BB942772726F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD0266E-A779-4A70-8AA9-BB942772726F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
