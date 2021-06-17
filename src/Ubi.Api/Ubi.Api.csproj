@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="cameras-defb.csv">
+      <None Update="..\..\data\cameras-defb.csv">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

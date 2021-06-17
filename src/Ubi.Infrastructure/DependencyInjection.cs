@@ -10,7 +10,7 @@ namespace Ubi.Infrastructure
         public static void AddInfrastructure(this IServiceCollection services)
         {
             services.AddScoped<ICameraRepository>(sp => new CameraRepository(
-                "cameras-defb.csv",
+                @"..\..\data\cameras-defb.csv",
                 new CsvFileDescription
                 {
                     SeparatorChar = ';',

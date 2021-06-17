@@ -1,16 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Api", "Ubi.Api\Ubi.Api.csproj", "{2B33853B-3D5E-462E-A85B-0302693E2171}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Api", "src\Ubi.Api\Ubi.Api.csproj", "{2B33853B-3D5E-462E-A85B-0302693E2171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Core", "Ubi.Core\Ubi.Core.csproj", "{5C417ADE-CC6D-4375-9B99-74CEAD59DF35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Core", "src\Ubi.Core\Ubi.Core.csproj", "{5C417ADE-CC6D-4375-9B99-74CEAD59DF35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Infrastructure", "Ubi.Infrastructure\Ubi.Infrastructure.csproj", "{6A523314-BDF1-4CC9-9202-3F8E063B3ACE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Infrastructure", "src\Ubi.Infrastructure\Ubi.Infrastructure.csproj", "{6A523314-BDF1-4CC9-9202-3F8E063B3ACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.UnitTests", "Ubi.UnitTests\Ubi.UnitTests.csproj", "{EA39EFC4-4424-4494-898D-D4EC603E1823}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.UnitTests", "test\Ubi.UnitTests\Ubi.UnitTests.csproj", "{EA39EFC4-4424-4494-898D-D4EC603E1823}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Application", "Ubi.Application\Ubi.Application.csproj", "{FA1514BD-705B-4C9B-A6C6-C83A62816D77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Application", "src\Ubi.Application\Ubi.Application.csproj", "{FA1514BD-705B-4C9B-A6C6-C83A62816D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Cli", "Ubi.Cli\Ubi.Cli.csproj", "{BBD0266E-A779-4A70-8AA9-BB942772726F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubi.Cli", "src\Ubi.Cli\Ubi.Cli.csproj", "{BBD0266E-A779-4A70-8AA9-BB942772726F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
