@@ -1,8 +1,13 @@
 import * as React from 'react';
 import mapboxgl, { Map as MapBoxMap } from 'mapbox-gl';
+import { Camera } from '../types';
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGFudGVkZXJ1d2UiLCJhIjoiY2txNWNsM3ZhMTN4aTJ2a2FodTk1N290MyJ9.FKu3YbJpcy_F9ZOt69VOcg';
 
-const Map: React.FC = () => {
+interface MapProps {
+  cameras: Camera[];
+}
+
+const Map: React.FC<MapProps> = ({ cameras }) => {
   const mapContainer = React.useRef() as React.MutableRefObject<HTMLDivElement>;
   const map = React.useRef<MapBoxMap>();
   const [lat, setLat] = React.useState(52.0914);
