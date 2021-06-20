@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
+import Map from './components/Map';
+import Table from './components/Table';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App: React.FC = () => (
+  <>
+    <h1>Security cameras Utrecht</h1>
+    <Map />
+    <div id="source">
+      source:
+      <a href="https://data.overheid.nl/dataset/camera-s">https://data.overheid.nl/dataset/camera-s</a>
     </div>
-  );
-}
+    <main>
+      <Table />
+    </main>
+  </>
+);
 
 export default App;
