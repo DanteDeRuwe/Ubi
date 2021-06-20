@@ -21,7 +21,9 @@ namespace Ubi.Api
         {
             // reference other layers
             services.AddInfrastructure();
-            
+
+            services.AddCors(options =>
+                options.AddDefaultPolicy(builder => builder.AllowAnyOrigin().WithMethods("GET")));
             services.AddControllers();
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo { Title = "Ubi.Api", Version = "v1" }); });
         }
@@ -37,6 +39,7 @@ namespace Ubi.Api
 
             app.UseHttpsRedirection();
             app.UseRouting();
+            app.UseCors();
             app.UseAuthorization();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
