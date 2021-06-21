@@ -9,7 +9,7 @@ namespace Ubi.Cli
         internal static void Main(string name)
         {
             var repo = new CameraRepository(
-                @"..\..\..\..\..\data\cameras-defb.csv",
+                @"..\..\data\cameras-defb.csv",
                 new CsvFileDescription
                 {
                     SeparatorChar = ';',
